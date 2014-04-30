@@ -1,0 +1,26 @@
+{
+    "name": "jade-dynamic-includes",
+    "version": "0.0.1",
+    "author": {
+        "name": "Konstantin Isaev",
+        "email": "konstantin.isaev@sakartvelosoft.com",
+        "url": "https://www.sakartvelosoft.com"
+    },
+    "repository": {
+        "type":"git",
+        "url":"git://github.com/sakartvelosoft/jade-dynamic-includes.git"
+    },
+    "description":"Enables support for dynamic includes for Jade",
+    "keywords" : ["web","jade","templates","include","utilities","helpers"],
+    "dependencies":{
+        "jade":"*",
+        "express":">=4.0,0",
+        "q":"*"
+    },
+    "main":"index",
+    "homepage":"https://github.com/sakartvelosoft.com/jade-dynamic-includes",
+
+    "engines" : {
+        "node":">=0.10.2"
+    }
+}
