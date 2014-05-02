@@ -1,6 +1,6 @@
 {
     "name": "jade-dynamic-includes",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "author": {
         "name": "Konstantin Isaev",
         "email": "konstantin.isaev@sakartvelosoft.com",
@@ -14,7 +14,7 @@
     "keywords" : ["web","jade","templates","include","utilities","helpers"],
     "dependencies":{
         "jade":"*",
-        "express":">=4.0.0",
+        "express":"*",
         "q":"*"
     },
     "main":"index",
