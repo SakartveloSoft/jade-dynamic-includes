@@ -19,15 +19,29 @@ NOTE: make 'use' call before any of route setup calls are made.
 Usage in templates
 ==================
 
-Use this construct to render templates:
+There are two constructs you can use two constructs to render templates - ___renderTemplates___ function and methods
+of the ___templates___ object.
+
+Use this construct to render templates with __renderTemplate__ method:
 
     != renderTemplate(templateId, options_are_optional)
 
-where ___templateId___ is a variable, e. g. from an ___each___ loop or current view locals.
+where ___templateId___ is a variable, e. g. from an ___each___ loop or current view locals. Or use
 
     != renderTemplate("templateName", options_are_optional)
 
-where ___"templateName"___ is an actual template name, e. g. __"items-list"__
+where ___"templateName"___ is an actual template name, e. g. __"items-list"__.
+
+With methods of __template__ object can be used with this construct:
+
+    |= render.__templateId__(___options___)
+
+where __templateId__ is template name, same as name of method and __options__ are optional object, that is used
+by most of templates.
+
+You can enumerate list of known templates by __knownTemplates__ property which is array of templates names.
+
+These methods and objects are available within templates, rendered using the constructs, listed above.
 
 Known limitations
 =================
@@ -43,4 +57,4 @@ the following templates will be available to views:
     views/templates/a.jade as a
     /views/templates/beta/b.jade as b
 
-Nested templates are coming soon.
+Nested templates are available, but currently recursive templates can result to stack overflow or an infinite loop.
