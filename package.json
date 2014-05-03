@@ -14,7 +14,7 @@
     "keywords" : ["web","jade","templates","include","utilities","helpers"],
     "dependencies":{
         "jade":"*",
-        "express":"*",
+        "express":"*"
     },
     "main":"index",
     "homepage":"https://github.com/sakartvelosoft.com/jade-dynamic-includes",
