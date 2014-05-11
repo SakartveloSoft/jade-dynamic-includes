@@ -10,11 +10,16 @@ Code changes in your app
 
         jadeDynamicIncludes.initTemplates(__dirname + '/views/templates');
 
+If you in development, and plan edit the views files after app started, set the `devMode` to `true`.
+
+        jadeDynamicIncludes.initTemplates(__dirname + '/views/templates', true);
+
+
 2. Add a hook to express or connect pipeline (express example below):
 
         app.use(jadeDynamicIncludes.attachTemplatesToRequest());
 
-NOTE: make 'use' call before any of route setup calls are made.
+NOTE: make `use` call before any of route setup calls are made.
 
 Usage in templates
 ==================
