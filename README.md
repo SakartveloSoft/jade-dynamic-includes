@@ -63,3 +63,8 @@ the following templates will be available to views:
         /views/templates/beta/b.jade as b
 
 ___NOTE___: Nested templates are available, but currently recursive templates can result to stack overflow or an infinite loop.
+
+Changes history
+===============
+0.2.1 - request locals made available in templates among with local per-template changes
+0.2.0 - first "stable" version with "recursive" templates rendering support.
