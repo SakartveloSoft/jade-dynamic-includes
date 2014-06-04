@@ -73,3 +73,4 @@ Changes history
 
 - 0.2.1 - request locals made available in templates among with local per-template changes
 - 0.2.0 - first "stable" version with "recursive" templates rendering support.
+- 0.2.4 - updated package information and fixed verbal error in this README with suggestions of 
