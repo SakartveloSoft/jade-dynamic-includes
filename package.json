@@ -17,8 +17,7 @@
         "express":"*"
     },
     "main":"index",
-    "homepage":"https://github.com/sakartvelosoft.com/jade-dynamic-includes",
-
+    "homepage":"https://github.com/sakartvelosoft/jade-dynamic-includes",
     "engines" : {
         "node":">=0.10.2"
     }
